@@ -75,7 +75,7 @@ public class UserController {
         return "Welcome to Admin Profile"; 
     } 
   
-    @PostMapping("/login") 
+    @PostMapping("/sinin") 
     public AuthResponse authenticateAndGetToken(@RequestBody AuthRequest authRequest) { 
     	
     	System.out.print(authRequest.getPassword());
